@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+
+/* Light theme defaults */
+body {
+  @apply bg-white text-gray-900;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* Dark theme when the 'dark' class is present on <html> */
+html.dark body {
+  @apply bg-gray-900 text-gray-100;
+}
+
+a { @apply underline decoration-transparent hover:decoration-gray-400; }
+
+* { transition: background-color 200ms ease, color 200ms ease; }
