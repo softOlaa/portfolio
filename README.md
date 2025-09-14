@@ -40,11 +40,3 @@ npm run build
 npm i -g vercel
 vercel
 ```
-
-## Notes
-
-- Open `src/components/BackgroundAnimation.jsx` to customize icons and positions.
-- Replace `/public/resume.pdf` with your real resume.
-- If you want CMS support (Sanity/Contentful), tell me and I'll add a starter integration.
-
-Enjoy! — If you want further tweaks (light/dark auto-detect, SEO meta tags, analytics, or a CMS), I can add them next.
